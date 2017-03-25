@@ -3,19 +3,19 @@
     <head>
         <meta charset="utf-8">
         <title>How transform HTML into PDF</title>
-        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
         
-        <div class="container">
+        <div class="tools">
+            <button id="btn-html2canvas">export PDF by using jspdf + html2canvas</button>
+        </div>
 
-            <div class="tools">
-                <button id="btn-html2canvas">export PDF by using jspdf + html2canvas</button>
-            </div>
+        <div class="container">
 
             <div id="content">
                 <div class="content-banner">
-                    <img class="content-banner-logo" src="/image/logo.jpg" alt="logo">
+                    <img class="content-banner-logo" src="./image/logo.jpg" alt="logo">
                     <h2>How Transform HTML Into PDF</h2>
                 </div>
                 <div class="content-main">
@@ -38,13 +38,12 @@
 
             </div>
 
-            <canvas id="canvas"></canva>
         </div>
 
 
-        <script src="/js/jspdf.debug.js"></script>
-        <script src="/js/html2canvas.js"></script>
-        <script src="/main.js"></script>
+        <script src="./js/jspdf.debug.js"></script>
+        <script src="./js/html2canvas.js"></script>
+        <script src="./main.js"></script>
 
     </body>
 

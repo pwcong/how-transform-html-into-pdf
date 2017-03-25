@@ -29,6 +29,7 @@ the width and height of content decided by the format of pdf
 */
 
 body{
+    margin: 0px;
     font-family: "Microsoft YaHei", sans-serif;
 }
 
@@ -41,8 +42,9 @@ body{
 }
 
 .tools{
-    width: 100%;
-    padding: 18px;
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
     text-align: center;
 }
 
@@ -52,15 +54,15 @@ body{
     border-radius: 4px;
     outline: none;
     font-size: 16px;
-    transition: background 0.3s;
+    transition: background-color 0.3s;
 }
 
 .tools button:hover{
-    background: orange;
+    background-color: orange;
 }
 
 .tools button:active{
-    background: #FF8800;
+    background-color: #FF8800;
 }
 
 #content{
@@ -77,7 +79,7 @@ body{
     align-items: center;
     width: 100%;
     min-height: 200px;
-    background: url(/image/banner.jpg);
+    background: url(../image/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
