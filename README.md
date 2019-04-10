@@ -1,5 +1,5 @@
 # how-transform-html-into-pdf
-A example about how to transform HTML into PDF
+An example about how to transform HTML into PDF
 
 [Demo预览](https://github.com/pwcong/how-transform-html-into-pdf/)
 
